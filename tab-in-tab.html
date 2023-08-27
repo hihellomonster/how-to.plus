@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="es-MX" Accept-Encoding: gzip, compress, br>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,13 +8,9 @@
     <meta name="description" content="Codigo Templete de Ejemplo y paso a paso cómo hacer en HTML y Javascript unas Tabs Codigo ejemplo de Tabs en HTML y Javascript con un 100% Score en lighthouse">
     <link rel="canonical" href="https://hihello.monster/templetes/tabs.html">
     <link rel="preconnect " href="https://fonts.gstatic.com ">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap " rel="stylesheet ">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&display=swap " rel="stylesheet ">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap " rel="stylesheet ">
-    <link href="https://www.xiiber.com/lib/fonts/xiibicon.woff " rel="stylesheet ">
-    <link href="https://www.xiiber.com/css/xiibicon.css " rel="stylesheet ">
-
-    <link rel=" icon " href="https://www.xiiber.com/favicon.png " sizes="192x192 ">
+    <link href="https://www.xiiber.com/lib/fonts/xiibicon.woff " rel="stylesheet "preload>
+    <link href="https://www.xiiber.com/css/xiibicon.css " rel="stylesheet " preload>
+    <link rel=" icon " href="./favicon.svg" sizes="192x192 ">
 
     <style>
         body {
@@ -183,9 +179,7 @@
     </div>
 
     <div id="x1" class="tabcontent">
-        <br>
-        <h3>x1 b1</h3>
-        <p>Bienvenido!</p>
+       <!-- <br>        <h3>x1 b1</h3>        <p>Bienvenido!</p> -->
         <!-- inicio -->
         <div id="a1" class="tabcontent2">
             <h3>a1</h3>
@@ -226,8 +220,8 @@
 
 
     <div id="x2" class="tabcontent">
-        <h1>x2</h1>
-        <p>Wow!</p>
+       <!-- <h1>x2</h1>
+        <p>Wow!</p>-->
         <div id="b1" class="tabcontent3">
             <h3>b1</h3>
             <p>Holis!</p>
@@ -254,7 +248,7 @@
         </div>
 
         <div class="tab3">
-            <button class="tablinks3" onclick="openThree(event, 'b1')"><span class="icon-calendario" aria-hidden="true"></span></button>
+            <button class="tablinks3" onclick="openThree(event, 'b1')" id="defaultOpen"><span class="icon-calendario" aria-hidden="true"></span></button>
             <button class="tablinks3" onclick="openThree(event, 'b2')"><span class="icon-calendario" aria-hidden="true"></span></button>
             <button class="tablinks3" onclick="openThree(event, 'b3')"><span class="icon-calendario" aria-hidden="true"></span></button>
             <button class="tablinks3" onclick="openThree(event, 'b4')"><span class="icon-calendario" aria-hidden="true"></span></button>
